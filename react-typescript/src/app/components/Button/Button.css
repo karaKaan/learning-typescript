@@ -4,4 +4,11 @@ button{
     padding-block: .25em;
     border-radius: 8px;
     font-size: 1.15rem;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+}
+
+button:hover{
+    font-size: 1.3rem;
+    transition: ease-in-out 150ms;
 }
