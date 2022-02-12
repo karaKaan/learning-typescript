@@ -1,0 +1,11 @@
+// This defines the basic compiler structure for typescript
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "watch": true,
+    // compiled files will be here, if it is plain ts. Else if its a framework like react they have their own ruling
+    "outDir": "./dist",
+    // tsc files are inside here. check above comment
+    "rootDir": "./src"
+  }
+}
