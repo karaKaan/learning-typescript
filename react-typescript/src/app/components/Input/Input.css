@@ -1,0 +1,17 @@
+.input-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input-wrapper label {
+    font-size: 1.125rem;
+}
+.input-wrapper input {
+    padding: .3rem;
+}
+
+input:focus{
+    outline: none;
+}
+
