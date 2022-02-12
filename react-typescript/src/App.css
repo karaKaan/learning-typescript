@@ -1,8 +1,12 @@
+.app-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  margin-inline: 2em;
+}
 .App{
   display: flex;
   flex-flow: column wrap;
   max-width: 50%;
-  margin-inline: 2em;
 }
 
 .form-wrapper{
