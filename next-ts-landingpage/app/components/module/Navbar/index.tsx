@@ -1,8 +1,23 @@
-import React from 'react'
-import * as S from './style'
+import React from "react";
+import { NavLink } from "../../elements/Link";
+import { Container } from "../../layouts/Container/style";
+import * as S from "./style";
 
 export const Navbar = () => {
   return (
-    <S.Wrapper>hello</S.Wrapper>
-  )
-}
+    <S.Wrapper>
+      <Container>
+        <S.NavItemWrapper>
+          
+          <S.LinkWrapper>
+            <NavLink text="Home" href="/" />
+            <NavLink text="Home" href="/" />
+            <NavLink text="Home" href="/" />
+            <NavLink text="Home" href="/" />
+            <NavLink text="Home" href="/" />
+          </S.LinkWrapper>
+        </S.NavItemWrapper>
+      </Container>
+    </S.Wrapper>
+  );
+};

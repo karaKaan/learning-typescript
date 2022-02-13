@@ -32,6 +32,10 @@ const GlobalStyle = createGlobalStyle`
     p {
         font-size: 1.2rem;
     }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
 
 `
 
