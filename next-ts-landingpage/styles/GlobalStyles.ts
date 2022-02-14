@@ -20,6 +20,11 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         color: var(--black);
     }
+    h1,
+    h2,
+    h3 {
+        font-family: 'Loro',sans-serif;
+    }
     h1 {
         font-size: 1.8rem;
     }
@@ -35,6 +40,11 @@ const GlobalStyle = createGlobalStyle`
     a{
         color: inherit;
         text-decoration: none;
+    }
+    p,
+    a {
+        font-family: 'Maitree', Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
     }
 
 `

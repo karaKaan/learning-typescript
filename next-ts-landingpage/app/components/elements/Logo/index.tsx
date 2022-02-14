@@ -1,14 +1,14 @@
 import Link from "next/link"
-
+import * as S from './style'
 export interface Props {
     text: string,
     href: string,
 }
 
-export const index = (props: Props) => {
+export const Logo = (props: Props) => {
   return (
     <Link href={props.href}>
-        <a>{props.text}</a>
+        <S.Logo>{props.text}</S.Logo>
     </Link>
   )
 }
