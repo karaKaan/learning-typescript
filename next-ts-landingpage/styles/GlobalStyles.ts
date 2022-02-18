@@ -42,9 +42,15 @@ const GlobalStyle = createGlobalStyle`
         text-decoration: none;
     }
     p,
-    a {
+    a,
+    button {
         font-family: 'Maitree', Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 500;
+    }
+
+    button{
+        border-style: none;
+        background: inherit;
     }
 
 `
