@@ -10,15 +10,16 @@ const Home: NextPage = () => {
   return (
     <Container>
       <Section>
-        <div >
-          <BigTitle text="Welcome to the Learning Platform of Typescript!" />
-          <BigTitle text="Stay cool and Have Fun!" />
+        {/* IMPORTANT: FIND A BETTER WAY TO SEPARATE EACH ELEMENTS */}
+        <div style={{marginTop: '4em', display: 'flex', flexDirection:'column', rowGap: '4em'}} >
+          <BigTitle text="Welcome to the Learning " highlight="Platform of Typescript!" />
+          <BigTitle text="Stay cool and " highlight="Have Fun!"/>
           <section style={{ display: "flex", justifyContent: 'space-evenly', alignItems: 'center'}}>
             <PrimaryBtn text="Start the Fun!" outline />
             <BodyLink href="/" text="Read more..." />
           </section>
         </div>
-        <Image src="/study.svg" width={700} height={500} />
+        <Image src="/study.svg" width={1000} height={700} />
       </Section>
     </Container>
   );
