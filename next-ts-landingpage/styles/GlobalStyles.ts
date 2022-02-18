@@ -1,16 +1,17 @@
 import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
     :root{
-        --white: #F7F4EA;
-        --black: #001021;
+        --primary: #F7F4EA;
+        --secondary: #001021;
         --accent: #FF3262;
     }
     
+
     body,html{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background: var(--white);
+        background: var(--primary);
     }
 
     h1,
@@ -19,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
     p{
         padding: 0;
         margin: 0;
-        color: var(--black);
+        color: var(--secondary);
     }
     h1,
     h2,
