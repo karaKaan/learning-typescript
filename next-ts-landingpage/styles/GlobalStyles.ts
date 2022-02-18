@@ -3,6 +3,7 @@ const GlobalStyle = createGlobalStyle`
     :root{
         --white: #F7F4EA;
         --black: #001021;
+        --accent: #FF3262;
     }
     
     body,html{

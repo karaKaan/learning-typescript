@@ -15,3 +15,11 @@ export const NavLink = (props: Props) => {
     </Link>
   )
 }
+
+export const BodyLink = (props: Props) => {
+  return(
+    <Link href={props.href}>
+      <S.BodyLink>{props.text}</S.BodyLink>
+    </Link>
+  )
+}

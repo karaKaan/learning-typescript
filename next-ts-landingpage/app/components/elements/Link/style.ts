@@ -37,3 +37,33 @@ export const NavLink = styled.a`
       transition: ease-in-out 250ms;
   }
 `;
+
+export const BodyLink = styled.a`
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: relative;
+  padding-block: .5em;
+  padding-inline: 1em;
+
+  ::before{
+    content: '';
+    position: absolute;
+    background: var(--accent);
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 4px;
+    transition: ease-in-out 400ms;
+  }
+
+  :hover::before{
+    transform: scaleX(1);
+    transition: ease-in-out 400ms;
+  }
+
+
+` 
